@@ -1,17 +1,23 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
+
 .site-title{
     font-family: 'Unica One', cursive;
     font-size: 70px;
-    text-decoration-color:#385dc9;
+    /* text-decoration-color:rgb(56, 93, 201) 93, 201); */
+}
+#carouselSite{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
 }
 .carousel-item h5{
     font-family: 'Unica One', cursive;
     font-size: 100px;
     text-decoration: none;
-    color:;
     position: relative;
 }
 .carousel-item p{
@@ -19,15 +25,20 @@ body{
     font-size: 25px;
 
 }
-
+.navbar a{
+    color: white;
+    font-size: 20px;
+}
 .animation-title{
     animation-timing-function: linear;
-    position: relative;
+    position: static;
+    top: 30%;
     animation: animation-title 5s;
 }
 .animation-subtitle{
     animation-timing-function: ease;
-    position: relative;
+    position: static;
+    top: 50%;
     animation: animation-subtitle 5s;
 }
 @keyframes animation-title{
@@ -41,7 +52,7 @@ body{
     100% {left: 0px;}
 }
 #corpo{
-    background: url('../img/bg3.png');
+    
 }
 #bloco-um .card-body h5{
     font-family: 'Major Mono Display', monospace;
