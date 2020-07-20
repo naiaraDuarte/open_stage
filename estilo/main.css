@@ -66,6 +66,11 @@ body{
 .texto-parallax{
     top: 50%;
 }
+.simbolos{
+    position: relative;
+    top: 50%;
+    height: 150px;
+}
 .quemSomos:before,
 .quemSomos:after {
     content: "";
@@ -105,11 +110,7 @@ body{
     position: relative;
     top: 200px;
 }
-.texto-parallax h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-}
+
 #bloco-um .card-body h5{
     font-family: 'Major Mono Display', monospace;
     font-size: 50px;
@@ -133,18 +134,33 @@ body{
 .parallax-window {
     min-height: 250px;
     background: transparent;
+    position: relative;
 }
 .parallax-window1 {
     min-height: 200px;
     background: transparent;
+    position: relative;
 }
 .parallax-window2 {
     min-height: 200px;
     background: transparent;
+    position: relative;
 }
 .parallax-window3 {
     min-height: 200px;
     background: transparent;
+    position: relative;
+}
+.texto-parallax{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.texto-parallax h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
 }
 .card-img-overlay p{
     font-family: 'Roboto Condensed', sans-serif;
